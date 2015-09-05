@@ -7,7 +7,6 @@ public class Demo   {
 		String b = "11";
 		System.out.println(addBinary(a, b));
 		
-		
 	}
 	public static String addBinary(String s1, String s2){
 		 int i = s1.length() - 1, j = s2.length() - 1, c = 0;
