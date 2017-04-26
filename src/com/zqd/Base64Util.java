@@ -1,4 +1,4 @@
-package com.ebupt.meeting.utils;
+package com.meeting.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
@@ -277,7 +277,7 @@ public class Base64Util {
 	}
 
 	public static void main(String[] args) {
-		String data = "6755|9bdaad5ca94db41ccc2d8888667e0f93|0003|miniap.sys.ap_name=¶àÅ£±Æ";
+		String data = "6755|9bdaad5ca94db41ccc2d8888667e0f93|0003|miniap.sys.ap_name=Â¶Ã Ã…Â£Â±Ã†";
 		System.out.println("*******************************");
 		String bresult = encode(data);
 		System.out.println(bresult);
